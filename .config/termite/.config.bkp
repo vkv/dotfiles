@@ -1,0 +1,35 @@
+[options]
+
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = false
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+font = Hack 10
+scrollback_lines = 10000
+search_wrap = true
+cursor_blink = system 
+cursor_shape = block
+filter_unmatched_urls = true
+
+[colors]
+
+color0 = #0e110d
+color1 = #7B807D
+color2 = #707B85
+color3 = #7A858F
+color4 = #919CA6
+color5 = #ACBBCB
+color6 = #B9C7D6
+color7 = #d5dee7
+color8 = #959ba1
+color9 = #7B807D
+color10 = #707B85
+color11 = #7A858F
+color12 = #919CA6
+color13 = #ACBBCB
+color14 = #B9C7D6
+color15 = #d5dee7

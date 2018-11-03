@@ -1,0 +1,8 @@
+#!/usr/bin/python
+import pyowm
+import api
+ 
+owm = pyowm.OWM(api.key)
+ 
+w = owm.weather_at_place('Novi Sad').get_weather()
+print('{}{}'.format(w.get_temperature('celsius')['temp'],'°C'))

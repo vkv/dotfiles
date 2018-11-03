@@ -1,0 +1,74 @@
+[options]
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = false
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+font = Hack 10
+scrollback_lines = 10000
+search_wrap = true
+cursor_blink = system
+cursor_shape = block
+filter_unmatched_urls = true
+
+[colors]
+foreground      = #a8a19f
+foreground_bold = #e6e2e0
+cursor          = #e6e2e0
+background      = #1b1918
+
+# 16 color space
+
+# Black, Gray, Silver, White
+color0  = #212121
+color8  = #757575
+color7  = #f1f1f1
+color15 = #FFFFFF
+
+# Red
+color1  = #1A80B5
+color9  = #408AFF
+
+# Green
+color2  = #1AADB5
+color10 = #1AB5A3
+
+# Yellow
+color3  = #1ED495
+color11 = #00BD7B
+
+# Blue
+color4  = #039BE5
+color12 = #29B6F6
+
+# Purple
+color5  = #00897B
+color13 = #26A69A
+
+# Teal
+color6  = #00ACC1
+color14 = #26C6DA
+
+# Extra colors
+color16 = #df5320
+color17 = #c33ff3
+color18 = #2c2421
+color19 = #68615e
+color20 = #9c9491
+color21 = #e6e2e0
+
+[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 12
+#border = #3f3f3f
+#border_width = 0.5
+#roundness = 2.0
+
+# vim: ft=dosini cms=#%s
